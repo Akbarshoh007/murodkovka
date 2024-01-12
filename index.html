@@ -9,7 +9,13 @@
 
   <title>Murod Kovka</title>
   <meta content="Murod Kovka - Biz ajoyib xizmatlar va g'oyalarni taqdim etamiz" name="description">
-  <meta content="Darvozalar, Panjaralar, Soyabonlar" name="keywords">
+
+
+
+  <meta content="Darvozalar, Panjaralar, Soyabonlar,Добро пожаловать на сайт Мурада Ковки,Welcome to Murad Kovka Site,Murod Kovka Sayitiga xush kelibsiz,Мы делаем,Biz yasaymiz,Chiroyli Darvozalar,Panjaralar,Soyabonlar,Красивые ворота, заборы, навесы,Beautiful Gates, Fences, Canopies,Chiroyli Darvozalar,Panjaralar,Soyabonlar,Начинать,Start,Boshlash,Наш сервис,Our service,Bizning xizmatimiz,Дом,Home,Uy,О нас,About,Haqida,Услуги,Services,Xizmatlar,Наша работа,Our work,Bizning ishlar,Связаться с нами,Contact us,Biz bilan aloqa,Наш девиз – высочайшее качество и эффективность работы,Our motto is the highest quality and work efficiency,Bizning shior eng yuqori sifat va ish samaradorligi,Мы предоставляем отличные услуги и идеи,We provide great services and ideas,Biz ajoyib xizmatlar va g`oyalarni taqdim etamiz,Наша фабрика была основана в 2010 году. Поначалу были свои трудности. В дальнейшем проделанная нами работа дала результаты, и наша работа понравилась клиентам, нас стали узнавать многие, а количество заказов увеличивалось в соответствии с качеством,Our factory was founded in 2010. At the beginning, there were difficulties of its own. Later, the work we did gave results and the work we did was liked by customers, many people started to recognize us, and our orders increased according to the quality,Bizning zavodimiz 2010-yilda tashkil topgan. Boshida o`ziga yarasha qiyinchiliklar bo`lgan. Keyinchalik qilingan ishlarimiz natija bergan va qilgan ishlarimiz mijozlarga ma`qul kelgan, ko`pchilik bizni taniy boshlagan, buyurtmalarimiz ham sifatiga yarasha ko`paygan,Подписаться на обновления,Subscribe for updates,Yangilanishlarga obuna bo'ling,Присоединяйтесь к нашим более чем 1000 подписчикам и следите за нами в социальных сетях,Join our 1000+ subscribers and follow us on social media,1000 dan ortiq obunachilarimizga qo'shiling va bizni ijtimoiy tarmoqlarda kuzatib boring,Подпишись сейчас,Subscribe now,Hoziroq obuna bo'ling,Bizning ishlar,Subscribe for updates,Подписаться на обновления,Ворота,Gates,Darvozalar,Зонты,Umbrellas,Soyabonlar,Бары,Bars,Panjaralar,Toshkent shahar,Sergeli tumani, oltin vodiy ko`chasi " name="keywords">
+
+  
+
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
   <meta property="og:title" content="">
@@ -43,6 +49,12 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <meta name="google-site-verification" content="N0DRFfiQLV1OLWWVh7OaVDx6VScrguHIcrrZpChZkg8" />
+  <style type="text/css">
+    footer a {
+      padding: 20px;
+      font-size: 30px;
+    }
+  </style>
 </head>
 
 <body>
@@ -55,11 +67,11 @@
           <img class="" src="assets/img/logo.png" alt="Imperial">
         </div>
 
-        <h1>Murod Kovka Saytiga xush kelibsiz</h1>
-        <h2>Biz yasaymiz<span class="typed" data-typed-items="Chiroyli Darvozalar,Panjaralar,Soyabonlar"></span></h2>
+        <h1 data-i18n="hero.h1">Murod Kovka Saytiga xush kelibsiz</h1>
+        <h2 data-i18n="hero.h2">Biz yasaymiz<span class="typed" data-typed-items="Chiroyli Darvozalar,Panjaralar,Soyabonlar"></span></h2>
         <div class="actions">
-          <a href="#about" class="btn-get-started">Boshlash</a>
-          <a href="#services" class="btn-services">Bizning xizmatimiz</a>
+          <a href="#about" class="btn-get-started" data-i18n="hero.start">Boshlash</a>
+          <a href="#services" class="btn-services" data-i18n="hero.our">Bizning xizmatimiz</a>
         </div>
       </div>
     </div>
@@ -75,12 +87,36 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Uy</a></li>
-          <li><a class="nav-link scrollto" href="#about">Haqida</a></li>
-          <li><a class="nav-link scrollto" href="#services">Xizmatla</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Bizning ishlar</a></li>
+          <li><a class="nav-link scrollto active" href="#hero" data-i18n="header.home1">Uy</a></li>
+          <li><a class="nav-link scrollto" href="#about" data-i18n="header.about1">Haqida</a></li>
+          <li><a class="nav-link scrollto" href="#services" data-i18n="header.services1">Xizmatla</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio" data-i18n="header.ourwork1">Bizning ishlar</a></li>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Biz bilan aloqa</a></li>
+          <li class="dropdown">
+            <a href="#">
+              <span>
+                <i class="bi bi-globe"></i>
+              </span> 
+                <i class="bi bi-chevron-down dropdown-indicator"></i>
+              </a>
+            <ul class="lang-picker">
+              <!-- <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li> -->
+              <li><a href="#" id="russian"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/800px-Flag_of_Russia.svg.png" width="20px">Русский</a></li>
+              <li><a href="#" id="uzbek"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/2560px-Flag_of_Uzbekistan.svg.png" width="20px">O'zbek</a></li>
+              <li><a href="#" id="english"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png" width="20px">English</a></li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#contact" data-i18n="header.contactus1">Biz bilan aloqa</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -95,9 +131,9 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="section-title">Biz haqimizda</h3>
+            <h3 class="section-title" data-i18n="about.us2">Biz haqimizda</h3>
             <div class="section-title-divider"></div>
-            <p class="section-description">Bizning shior eng yuqori sifat va ish samaradorligi</p>
+            <p class="section-description" data-i18n="about.ourmotto">Bizning shior eng yuqori sifat va ish samaradorligi</p>
           </div>
         </div>
       </div>
@@ -119,15 +155,15 @@
           </div>
 
           <div class="col-md-6 about-content">
-            <h2 class="about-title">Biz ajoyib xizmatlar va g'oyalarni taqdim etamiz</h2>
-            <p class="about-text">
+            <h2 class="about-title" data-i18n="about.weprovide">Biz ajoyib xizmatlar va g'oyalarni taqdim etamiz</h2>
+            <p class="about-text" data-i18n="about.ourfactory">
              Bizning zavodimiz 2010-yilda tashkil topgan. Boshida o`ziga yarasha qiyinchiliklar bo`lgan. Keyinchalik qilingan ishlarimiz natija bergan va qilgan ishlarimiz mijozlarga ma`qul kelgan, ko`pchilik bizni taniy boshlagan, buyurtmalarimiz ham sifatiga yarasha ko`paygan
             </p>
-            <p class="about-text">
+            <p class="about-text" data-i18n="about.currently">
                Hozirda ishlarimiz talab darajasida va har bir mijozga o`zi hoxlagan, o`ziga yoqadigan, sifatli buyurtmalarni tayyorlab, yetkazib, o`rnatib beramiz. 
              
             </p>
-            <p class="about-text">
+            <p class="about-text" data-i18n="about.inthefuture">
               Kelajakda biz olib borilayotgan ishlarimizni rivjlantirib, ish o`rinlarini kengaytirib, sifatli mahsulotlarni sizlarga taqdim qilish
             </p>
           </div>
@@ -140,9 +176,9 @@
       <div class="container">
         <div class="row" data-aos="fade-up">
           <div class="col-md-12">
-            <h3 class="section-title">Bizning xizmatlar</h3>
+            <h3 class="section-title" data-i18n="services.ourservices2">Bizning xizmatlar</h3>
             <div class="section-title-divider"></div>
-            <p class="section-description">Bizga berilgan buyurtmani o`z vaqtida,<br>sifatli va chiroyli qilib<br> yetkazib o`rnatib berish</p>
+            <p class="section-description" data-i18n="services.theorder">Bizga berilgan buyurtmani o`z vaqtida,sifatli va chiroyli qilib yetkazib o`rnatib berish</p>
           </div>
         </div>
 
@@ -154,11 +190,11 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-md-8">
-            <h3 class="subscribe-title">Yangilanishlarga obuna bo'ling</h3>
-            <p class="subscribe-text">1000 dan ortiq obunachilarimizga qo'shiling va bizni ijtimoiy tarmoqlarda kuzatib boring</p>
+            <h3 class="subscribe-title" data-i18n="subscrbe.subscrbe3">Yangilanishlarga obuna bo'ling</h3>
+            <p class="subscribe-text" data-i18n="subscrbe.join1">1000 dan ortiq obunachilarimizga qo'shiling va bizni ijtimoiy tarmoqlarda kuzatib boring</p>
           </div>
           <div class="col-md-4 subscribe-btn-container">
-            <a class="subscribe-btn" href="https://instagram.com/murod_kovka?igshid=OGQ5ZDc2ODk2ZA==">Hozir obuna bo'ling</a>
+            <a class="subscribe-btn" href="https://instagram.com/murod_kovka?igshid=OGQ5ZDc2ODk2ZA==" data-i18n="subscrbe.now1">Hozir obuna bo'ling</a>
           </div>
         </div>
       </div>
@@ -169,19 +205,19 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="section-title">Bizning ishlar</h3>
+            <h3 class="section-title" data-i18n="portfolio.forupdates">Bizning ishlar</h3>
             <div class="section-title-divider"></div>
-            <p class="section-description">O`ta yuqori darajadagi aniqlik va sifat uyg`unligi</p>
+            <p class="section-description" data-i18n="portfolio.avery">O`ta yuqori darajadagi aniqlik va sifat uyg`unligi</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Hammasi</li>
-              <li data-filter=".filter-app">Darvozalar</li>
-              <li data-filter=".filter-card">Soyabonlar</li>
-              <li data-filter=".filter-web">Panjaralar</li>
+              <li data-filter="*" class="filter-active" data-i18n="portfolio.Everything1">Hammasi</li>
+              <li data-filter=".filter-app" data-i18n="portfolio.gates1">Darvozalar</li>
+              <li data-filter=".filter-card" data-i18n="portfolio.umbrellas1">Soyabonlar</li>
+              <li data-filter=".filter-web" data-i18n="portfolio.bars1">Panjaralar</li>
             </ul>
           </div>
         </div>
@@ -191,90 +227,72 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/photo_2023-07-21_15-37-49.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Panjara</h4>
-              <p>Panjara</p>
-              <a href="assets/img/portfolio/photo_2023-07-21_15-37-49.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Panjara"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.Bars2">Panjara</h4>
+              <p data-i18n="portfolio.Bars3">Panjara</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/photo_2023-07-21_15-37-50.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Panjara</h4>
-              <p>Panjara</p>
-              <a href="assets/img/portfolio/photo_2023-07-21_15-37-50.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Panjara"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4  data-i18n="portfolio.Bars4">Panjara</h4>
+              <p data-i18n="portfolio.Bars5">Panjara</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/photo_2023-07-21_15-37-52 (2).jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Panjara</h4>
-              <p>Panjara</p>
-              <a href="assets/img/portfolio/photo_2023-07-21_15-37-52 (2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Panjara"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.Bars6">Panjara</h4>
+              <p data-i18n="portfolio.Bars7">Panjara</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/photo_2023-07-31_09-59-18.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Darvoza</h4>
-              <p>Darvoza</p>
-              <a href="assets/img/portfolio/photo_2023-07-31_09-59-18.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Darvoza"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.gates2">Darvoza</h4>
+              <p data-i18n="portfolio.gates3">Darvoza</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/photo_2023-07-31_09-59-20.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Darvoza</h4>
-              <p>Darvoza</p>
-              <a href="assets/img/portfolio/photo_2023-07-31_09-59-20.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Darvoza"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.gates4">Darvoza</h4>
+              <p data-i18n="portfolio.gates5">Darvoza</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/photo_2023-08-02_07-00-58.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Darvoza</h4>
-              <p>Darvoza</p>
-              <a href="assets/img/portfolio/photo_2023-08-02_07-00-58.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Darvoza"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.gates6">Darvoza</h4>
+              <p data-i18n="portfolio.gates7">Darvoza</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/photo_2023-08-02_06-55-34 (2).jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Soyabon</h4>
-              <p>Soyabon</p>
-              <a href="assets/img/portfolio/photo_2023-08-02_06-55-34 (2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Soyabon"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.umbrellas1">Soyabon</h4>
+              <p data-i18n="portfolio.umbrellas2">Soyabon</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/photo_2023-08-02_06-55-34.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Soyabon</h4>
-              <p>Soyabon</p>
-              <a href="assets/img/portfolio/photo_2023-08-02_06-55-34.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Soyabon"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.umbrellas3">Soyabon</h4>
+              <p data-i18n="portfolio.umbrellas4">Soyabon</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/portfolio/photo_2023-08-02_06-55-36.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Soyabon</h4>
-              <p>Soyabon</p>
-           <a href="assets/img/portfolio/photo_2023-08-02_06-55-36.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Soyabon"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bi bi-link"></i></a>
+              <h4 data-i18n="portfolio.umbrellas5">Soyabon</h4>
+              <p data-i18n="portfolio.umbrellas6">Soyabon</p>
             </div>
           </div>
 
@@ -288,9 +306,9 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="section-title">BIZ BILAN BOG'LANISH</h3>
+            <h3 class="section-title" data-i18n="contact.ourcall">BIZ BILAN BOG'LANISH</h3>
             <div class="section-title-divider"></div>
-            <p class="section-description">Bizning shior eng yuqori sifat va ish samaradorligi</p>
+            <p class="section-description" data-i18n="contact.shor">Bizning shior eng yuqori sifat va ish samaradorligi</p>
           </div>
         </div>
 
@@ -299,11 +317,14 @@
             <div class="info">
               <div>
                 <i class="bi bi-geo-alt"></i>
-                <p>Toshkent shahar<br>Sergeli tumani, oltin vodiy ko`chasi</p>
+                <p data-i18n="contact.sti">Toshkent shahar<br>Sergeli tumani, oltin vodiy ko`chasi</p>
+
               </div>
 
               <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.167384081913!2d69.24373677591176!3d41.26169127131603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae60286f4209ed%3A0x2540c30002b8c1ac!2sOltin%20Vodiy%20Ko&#39;chasi%2C%20%D0%A2%D0%BEshkent%2C%20Toshkent%2C%20O%60zbekiston!5e0!3m2!1suz!2s!4v1704868138412!5m2!1suz!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <i class="bi bi-envelope"></i>
+                <p>zilhom976@gamil.com</p>
+
               </div>
 
               <div>
@@ -311,6 +332,7 @@
                 <p>+998 97 723 3878 <br>
                   +998 93 505 3878
                 </p>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2999.167382764615!2d69.2463117!3d41.2616913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae60286f4209ed%3A0x2540c30002b8c1ac!2sOltin%20Vodiy%20Ko&#39;chasi%2C%20%D0%A2%D0%BEshkent%2C%20Toshkent!5e0!3m2!1suz!2s!4v1704888172351!5m2!1suz!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
 
             </div>
@@ -320,23 +342,23 @@
             <div class="form">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz" required>
+                  <input data-i18n-placeholder="contact.name" type="text name="name class="form-control" id="name" placeholder="Ismingiz" required>
                 </div>
                 <div class="form-group mt-3">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Mavzu" required>
+                  <input data-i18n-placeholder="contact.tema" type="text" class="form-control" name="subject" id="subject" placeholder="Mavzu" required>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Xabar" required></textarea>
+                  <textarea data-i18n="contact.ax24" class="form-control" name="message" rows="5" placeholder="Xabar" required></textarea>
                 </div>
                 <div class="my-3">
-                  <div class="loading">Yuklanmoqda</div>
+                  <div class="loading" data-i18n="contact.dowi">Yuklanmoqda</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Sizning xabaringiz yuborildi. Rahmat!</div>
+                  <div class="sent-message"  data-i18n="contact.massagee">Sizning xabaringiz yuborildi. Rahmat!</div>
                 </div>
-                <div class="text-center"><button type="submit">Xabar yuborish</button></div>
+                <div class="text-center"><button type="submit" data-i18n="contact.mas">Xabar yuborish</button></div>
               </form>
             </div>
           </div>
@@ -353,7 +375,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="copyright">
-            &copy; Asoschisi <strong> Usmanov Murodjon Tulyaganovich</strong>. Barcha huquqlar himoyalangan
+            &copy; <p data-i18n="footer.im">Mualliflik huquqi</p> <strong data-i18n="footer.after">Murod Kovka</strong>. <p data-i18n="footer.ali">Barcha huquqlar himoyalangan</p>
           </div>
           <div class="credits">
             <!--
@@ -363,8 +385,8 @@
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
           -->
           <!-- <a href="https://t.me/Web_Progromis">Sayt A`zamjonov Akbar tomonidan ishlab chiqilgan</a><br> -->
-          <h4>Ijtimoiy tarmoqlarda bizni kuzatib boring</h4>
-          <a href="https://t.me/murod_kovka"><i class='bx bxl-telegram'></i></a>
+          <h4 data-i18n="footer.solu">Ijtimoiy tarmoqlarda bizni kuzatib boring</h4>
+          <a href="https://t.me/murod_kovka" ><i class='bx bxl-telegram'></i></a>
           <a href="https://instagram.com/murod_kovka?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram' ></i></a>
           <a href="https://youtube.com/@murod_kovka"><i class='bx bxl-youtube' ></i></a>
 
@@ -385,9 +407,16 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Jquery Js Goes Here -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Localization Goes Here -->
+  <script src="assets/js/i18n.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
 
 </body>
 
